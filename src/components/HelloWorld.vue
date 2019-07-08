@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="PSViewer" ref="psvdbg" v-if="show">
-            <div class="control" @click="changeImage">控制按钮</div>
+            <div class="control" ref="youn" @click="changeImage">控制按钮</div>
         </div>
     </div>
 </template>
@@ -27,6 +27,7 @@ export default {
 
   mounted () {
     this.initPhotoSphere();
+    
   },
 
   methods: {
@@ -42,9 +43,11 @@ export default {
         size: {
           width: '100%',
           height: '498px'
-        }
+        },
+        gyroscope:true,
       });
     },
+    
     // 点击更换图片
     changeImage () {
       this.imgNum++;
