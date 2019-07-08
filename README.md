@@ -1,4 +1,4 @@
-# 360-sphere-viewer
+# sphere-viewer
 
 ## Project setup
 ```

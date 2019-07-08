@@ -1,5 +1,5 @@
 {
-  "name": "360-sphere-viewer",
+  "name": "sphere-viewer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,23 +10,50 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "photo-sphere-viewer": "^3.5.1",
-    "three": "^0.106.2",
+    "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
+    "vue-3d-model": "^1.1.0-aplha.0",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-plugin-pwa": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.5",
-    "sass": "^1.18.0",
+    "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
   },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {
+      "semi": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
