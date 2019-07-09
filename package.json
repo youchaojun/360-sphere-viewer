@@ -13,6 +13,7 @@
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-3d-model": "^1.1.0-aplha.0",
+    "vue-pannellum": "^0.4.8",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {

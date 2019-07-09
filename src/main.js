@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import VuePannellum from 'vue-pannellum'
 import './registerServiceWorker'
 
+Vue.component('VPannellumn', VuePannellum)
 Vue.config.productionTip = false
 
 new Vue({

@@ -5338,6 +5338,11 @@ lodash._reinterpolate@~3.0.0:
   resolved "https://registry.npm.taobao.org/lodash._reinterpolate/download/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
 
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
+
 lodash.defaultsdeep@^4.6.0:
   version "4.6.0"
   resolved "https://registry.npm.taobao.org/lodash.defaultsdeep/download/lodash.defaultsdeep-4.6.0.tgz#bec1024f85b1bd96cbea405b23c14ad6443a6f81"
@@ -6350,6 +6355,11 @@ pako@~1.0.5:
   version "1.0.10"
   resolved "https://registry.npm.taobao.org/pako/download/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
   integrity sha1-Qyi621CGpCaqkPVBl31JVdpclzI=
+
+pannellum@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/pannellum/-/pannellum-2.4.1.tgz#abd5defdb4cdfe1e69736aa2b7ab6e0912fa52b4"
+  integrity sha512-phldnZG/Ke/zEYSUrCnaS4MS6YNNHXyPBPbdkp1S6hv47KqO56XVbJwp9bbOJ8YRqRHxniBWqxQP5TnexqiYyA==
 
 parallel-transform@^1.1.0:
   version "1.1.0"
@@ -8851,6 +8861,14 @@ vue-loader@^15.7.0:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-pannellum@^0.4.8:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/vue-pannellum/-/vue-pannellum-0.4.8.tgz#a53424bf6df66a06824bd401de7e99e0ea5a3f18"
+  integrity sha512-5++XttRdb4MpB+lgz1YcOdC7vXXwZ9d+4BS1WdvSPQYRY3hGxO3wiEk12uW/1l+YpHYlkiipt4e4eJEslcKkgw==
+  dependencies:
+    lodash.debounce "^4.0.8"
+    pannellum "^2.4.1"
 
 vue-router@^3.0.3:
   version "3.0.7"
